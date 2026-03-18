@@ -135,7 +135,7 @@ const data = {
     {
       title: "Portfolio Website",
       description:
-        "Mi primer Portfolio personal donde muestro mis proyectos, habilidades y evolución como desarrollador web. Actualmente esta en deuso, ya que diseñe esta nueva version, cuando fui desarrollando mas habilidades",
+        "Mi primer Portfolio personal donde muestro mis proyectos, habilidades y evolución como desarrollador web. Actualmente esta en deuso, ya que diseñe una nueva version a medida fui desarrollando mas habilidades",
       link: "https://joaocosta-my-portfolio.vercel.app/#",
       image: "./project2.avif",
     },
