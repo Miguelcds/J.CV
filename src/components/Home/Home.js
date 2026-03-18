@@ -64,7 +64,7 @@ const workExperience = (data) => {
         <p>${el.position}</p>
         <p>${el.company}</p>
         <p>${el.startDate} - ${el.endDate}</p>
-        <div class"descrip"> ${descrip}</p>
+        <div class"descrip"> ${descrip}</div>
       </li>
     `;
   }
