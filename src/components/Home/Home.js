@@ -55,15 +55,21 @@ const workExperience = (data) => {
   const ul = section.querySelector(".list2");
 
   for (const el of data.workExperience) {
+
+    const descrip = el.description.map(info => `<p>${info}</p>`).join('')
+
+
     ul.innerHTML += `
       <li class="card">
         <p>${el.position}</p>
         <p>${el.company}</p>
         <p>${el.startDate} - ${el.endDate}</p>
-        <p>${el.description}</p>
+        <div class"descrip"> ${descrip}</div>
       </li>
     `;
   }
+
+  
 };
 
 /* ===== SKILLS ===== */
