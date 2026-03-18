@@ -104,6 +104,14 @@ const data = {
 
     },
     {
+      title: "Agenda De Eventos",
+      description:
+        "Aplicación web desarrollada con React y Vite para consultar y organizar eventos del centro: charlas, torneos, talleres y excursiones.",
+      link: "https://eventos-by-jcosta.netlify.app/",
+      image: "./project1.avif",
+      tecnologies: ["JavaScript", "React", "HTML", "Vite"]
+    },
+    {
       title: "Backend Api Rest",
       description:
         "Esta API REST está desarrollada con Node.js, Express y MongoDB/Mongoose. Proporciona un sistema completo de gestión de usuarios, autenticación mediante JWT, subida y gestión de imágenes con Cloudinary, CRUD de canciones y un sistema de favoritos sin duplicados. El proyecto sigue una arquitectura modular y escalable, ideal para entornos de producción y aprendizaje avanzado",
