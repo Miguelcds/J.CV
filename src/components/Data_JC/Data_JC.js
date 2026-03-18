@@ -14,7 +14,7 @@ const data = {
     {
       degree: "CFGS en Desarrollo de Aplicaciones Web (DAW)",
       university: "The Power FP",
-      graduationYear: 2026,
+      graduationYear: "2024 - 2026",
       relevantCourses: `
       HTML, CSS y JavaScript, 
       Diseño de Aplicaciones Web Front y Backend con Node.js y Express, 
@@ -24,27 +24,37 @@ const data = {
     {
       degree: "Máster en Desarrollo Web Full Stack",
       university: "The Power",
-      graduationYear: 2026,
-      relevantCourses:`HTML, CSS, JavaScript, React, Node.js, MongoDB Arquitectura Full Stack`,
+      graduationYear: "2024 - 2026",
+      relevantCourses: `HTML, CSS, JavaScript, React, Node.js, MongoDB Arquitectura Full Stack`,
     },
   ],
 
   workExperience: [
     {
+      position: "Data Analyst Intern",
+      company: "Mercanza",
+      startDate: "Marzo ",
+      endDate: "Junio 2026",
+      description: [
+        "Donde Realice las siguientes Tareas: ",
+        "Procesamiento y limpieza de datos mediante Python y librerías como Pandas",
+        "Transformación de datos (ETL) para su análisis y visualización",
+        "Generación de datasets preparados para visualización",
+        "Creación de dashboards e informes en Power BI",
+        "Análisis de datos para obtención de insights",
+      ],
+    },
+    {
       position: "Técnico de Campo",
       company: "Ista Metering Services Spain",
       startDate: "2019",
       endDate: "2026",
-      description:
-        "Lectura, mantenimiento y revisión de equipos de medición. Resolución de incidencias en campo, trabajo autónomo por rutas y trato directo con clientes. Durante medio año realicé tareas de organización de personal, asignación de tareas y seguimiento del trabajo del equipo.",
-    },
-    {
-      position: "Camarero",
-      company: "Foster’s Hollywood",
-      startDate: "2015",
-      endDate: "2019",
-      description:
-        "Atención al cliente, trabajo en equipo en entornos de alta carga de trabajo y gestión eficiente del tiempo.",
+      description: [
+        "Donde Realice las siguientes Tareas:",
+        "Lectura, mantenimiento y revisión de equipos de medición",
+        "Resolución de incidencias en campo, trabajo autónomo por rutas y trato directo con clientes",
+        "Durante medio año realicé tareas de organización de personal, asignación de tareas y seguimiento del trabajo del equipo",
+      ],
     },
   ],
 
@@ -69,32 +79,57 @@ const data = {
 
   projects: [
     {
+      title: "Custom Pintarest - Async-Web",
+      description:
+        "Es una version custom de Pintarest. Esta centrado en JavaScript asíncrono, consumo de APIs y renderizado dinámico de datos.",
+      link: "https://async-web-jc.netlify.app/",
+      image: "./project1.avif",
+      tecnologies: ["JavaScript", "CSS", "HTML"],
+    },
+    {
+      title: "Recipe Hub App - REACT",
+      description:
+        "Aplicación de recetas con React, consumo de TheMealDB API, favoritos con localStorage y diseño responsive",
+      link: "https://recipehubapp.netlify.app/",
+      image: "./project2.avif",
+      technologies: ["React", "React Router DOM", "Context API", "TheMealDB API"],
+    },
+    {
+      title: "Asignador de Zonas - Bilbao ",
+      description:
+        "Desarrollada en mis ratos libres, fue la mejor idea que tuve para poder quitarme la tediosa tarea de asignar las calles por zonas de un exel, facilitando asi muchas de mis tareas. Es una Aplicación web progresiva (PWA) que procesa archivos Excel con listados de calles y les asigna automáticamente su zona en Bilbao. ",
+      link: "https://exeldirecciones-jcosta-dev.netlify.app/",
+      image: "./project1.avif",
+      tecnologies: ["JavaScript", "CSS", "HTML"]
+
+    },
+    {
+      title: "Backend Api Rest",
+      description:
+        "Esta API REST está desarrollada con Node.js, Express y MongoDB/Mongoose. Proporciona un sistema completo de gestión de usuarios, autenticación mediante JWT, subida y gestión de imágenes con Cloudinary, CRUD de canciones y un sistema de favoritos sin duplicados. El proyecto sigue una arquitectura modular y escalable, ideal para entornos de producción y aprendizaje avanzado",
+      link: "https://github.com/Miguelcds/Backend_Api_Songs.git",
+      image: "./project3.avif",
+    },
+    {
       title: "CSS Showcase",
       description:
         "Proyecto enfocado en CSS moderno con layouts responsive, animaciones y componentes reutilizables utilizando Flexbox y Grid.",
       link: "https://css-project-jcosta.netlify.app/",
-      image: "./project1.avif",
+      image: "./project4.avif",
     },
     {
       title: "E-Commerce",
       description:
-        "Demo de e-commerce responsive desarrollada con HTML y CSS, enfocada en estructura, diseño y experiencia de usuario.",
+        "Este Fue mi Primer proyecto con HTML y CSS. Lo conservo con cariño ya que aqui empecé a Rodar. Es una pagina responsive desarrollada con HTML y CSS, enfocada en estructura, diseño y experiencia de usuario.",
       link: "https://proyect-shop-css.netlify.app/",
-      image: "./project2.avif",
+      image: "./project1.avif",
     },
     {
       title: "Portfolio Website",
       description:
-        "Portfolio personal donde muestro mis proyectos, habilidades y evolución como desarrollador web.",
+        "Mi primer Portfolio personal donde muestro mis proyectos, habilidades y evolución como desarrollador web. Actualmente esta en deuso, ya que diseñe esta nueva version, cuando fui desarrollando mas habilidades",
       link: "https://joaocosta-my-portfolio.vercel.app/#",
-      image: "./project3.avif",
-    },
-    {
-      title: "Async-Web",
-      description:
-        "Proyecto interactivo centrado en JavaScript asíncrono, consumo de APIs y renderizado dinámico de datos.",
-      link: "https://async-web-jc.netlify.app/",
-      image: "./project4.avif",
+      image: "./project2.avif",
     },
   ],
 };
